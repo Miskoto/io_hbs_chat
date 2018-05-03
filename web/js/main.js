@@ -3,6 +3,7 @@ var messageContainer = document.getElementById('message');
 
 socket.on('message', function(socket){
     renderMessage('message');
+    sendMessage ('nickname', 'message');
 });
 
 function sendMessage (nickname, message) {
