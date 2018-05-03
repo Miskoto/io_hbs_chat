@@ -1,0 +1,11 @@
+{
+  "name": "socket.io_chat",
+  "version": "0.0.1",
+  "description": "my first socket_chat",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "socket.io": "^2.1.0"
+  }
+}

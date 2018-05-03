@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1> {{ title }} </h1>
+    <p> Welcome to {{ title }} </p>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+<div id="message">
+    <p id = "greeting"> <span class ="Letter">W</span>elcome to chat! </p>
+</div>
+    <form class ="chat_form">
+        <div class ="panel">
+        <div class ="inputs">
+            <div class ="input-left">
+                <input name="nickname" placeholder="Nickname" type="text" autofocus="" autocomplete="off">
+            </div>
+            <div class ="input-right">
+                <input name="message" placeholder="Enter your message" type="text" autocomplete="off" /><button>Send</button>
+            </div>
+        </div>
+        <div class="smiles">
+            <span>
+			<img class="smile" src="/img/mellow.png" alt=":mellow:">
+			</span>
+			<span>
+			<img class="smile" src="/img/dry.png" alt="&lt;_&lt;">
+			</span>
+			<span>
+			<img class="smile" src="/img/smile.png" alt=":)">
+			</span>
+			<span>
+			<img class="smile" src="/img/wub.png" alt=":wub:">
+			</span>
+			<span>
+			<img class="smile" src="/img/angry.png" alt=":angry:">
+			</span>
+			<span>
+			<img class="smile" src="/img/sad.png" alt=":(">
+			</span>
+			<span>
+			<img class="smile" src="/img/unsure.png" alt=":unsure:">
+			</span>
+			<span>
+			<img class="smile" src="/img/wacko.png" alt=":wacko:">
+			</span>
+			<span>
+			<img class="smile" src="/img/blink.png" alt=":blink:">
+			</span>
+			<span>
+			<img class="smile" src="/img/sleep.png" alt="-_-">
+			</span>
+			<span>
+			<img class="smile" src="/img/huh.png" alt=":huh:">
+			</span>
+			<span>
+			<img class="smile" src="/img/happy.png" alt="^_^">
+			</span>
+			<span>
+			<img class="smile" src="/img/ohmy.png" alt=":o">
+			</span>
+			<span>
+			<img class="smile" src="/img/wink.png" alt=";)">
+			</span>
+			<span>
+			<img class="smile" src="/img/tongue.png" alt=":P">
+			</span>
+			<span>
+			<img class="smile" src="/img/biggrin.png" alt=":D">
+			</span>
+			<span>
+			<img class="smile" src="/img/laugh.png" alt=":lol:">
+			</span>
+			<span>
+			<img class="smile" src="/img/cool.png" alt="B)">
+			</span>
+			<span>
+			<img class="smile" src="/img/ph34r.png" alt=":ph34r:">
+			</span>
+        </div>
+        </div>
+    </form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
+</body>
+</html>

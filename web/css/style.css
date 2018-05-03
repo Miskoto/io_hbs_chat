@@ -1,0 +1,52 @@
+p {
+    text-align: center;
+    font-family: Marker Felt, fantasy;
+    font-weight: bolder;
+    color: #ee99aa;
+}
+.Letter {
+    color:#d85c71;
+    font-size: 50px;
+}
+body {
+    margin: 0;
+    font-size: 25px;
+    background-color: #dbe0e4;
+}
+.panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #BC8F8F;
+}
+input {
+    font-size: inherit;
+    width: 100%;
+    font-family: FreeMono, monospace;
+    background: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.inputs {
+    display: flex;
+}
+.input-left {
+    max-width: 25%;
+    padding-right: 0.5em;
+}
+.input-left, .input-right {
+    flex-grow: 1;
+}
+.smiles {
+    text-align: center;
+    border: 1px solid black;
+    background: #f0f0f0;
+    margin: 10px;
+}
+.smile {
+    cursor: pointer;
+}
+
